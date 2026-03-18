@@ -6,7 +6,7 @@ class Case:
         self.expected_result = expected_result
 
     def print_test_case_info(self):
-         print(
+        print(
             f"ID тест-кейса:  {self.test_case_id}"
             f"\nНазвание: {self.name}"
             f"\nОписание шага: {self.step_description}"
@@ -30,10 +30,7 @@ class ExtendedCase(Case):
 
     def print_test_case_info(self):
         super().print_test_case_info()
-        print(
-            f"Предусловие: {self.precondition}"
-            f"\nОкружение: {self.environment}"
-        )
+        print(f"Предусловие: {self.precondition}" f"\nОкружение: {self.environment}")
 
 
 case = ExtendedCase(
