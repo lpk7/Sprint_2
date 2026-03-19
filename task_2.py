@@ -22,4 +22,4 @@ class Drama(Movies):
 comedy = Comedy([])
 drama = Drama([])
 print(comedy.add_movie("Большой куш"))
-print(drama.add_movie("Оружейный барон"))
+print(drama.add_movie("Оружейный барон "))

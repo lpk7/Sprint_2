@@ -5,7 +5,7 @@ class Case:
         self.step_description = step_description
         self.expected_result = expected_result
 
-    # Вариант с переписанным родительским классом, для решения проблемы вывода None после использования родительского класса в подклассе
+    # Вариант  с переписанным родительским классом, для решения проблемы вывода None после использования родительского класса в подклассе
     def print_test_case_info(self):
         return f"ID тест-кейса: {self.test_case_id} \nНазвание: {self.name} \nОписание шага: {self.step_description} \nОжидаемый результат: {self.expected_result}"
 

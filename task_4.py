@@ -15,8 +15,8 @@ class EmployeeSalary:
 
     @classmethod
     def get_email(cls, name, hours, rest_days):
-        new_email = f'{name}@email.com'
-        return cls(name, hours, rest_days, new_email)
+        work_email = f"{name}@email.com"
+        return cls(name, hours, rest_days, work_email)
 
     @classmethod
     def set_hourly_payment(cls, new_payment):

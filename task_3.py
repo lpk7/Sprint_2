@@ -10,7 +10,7 @@ class PointsForPlace:
             print("Баллы начисляются только первым 100 участникам")
             return points
         elif place < 1:
-            print("Спортсмен не может занять нулевое или отрицательное место")
+            print("Спортсмен не может занять нулевое или отрицательное место ")
             return points
         else:
             points = 101 - place

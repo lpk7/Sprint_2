@@ -42,7 +42,7 @@ class Hockey(Results):
 
 
 football_team = Football(2, 2, 2)
-hockey_team = Hockey(2, 2, 2)
+hockey_team = Hockey(3, 3, 3)
 
 for team in (football_team, hockey_team):
     team.number_of_wins()
